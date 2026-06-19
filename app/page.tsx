@@ -443,7 +443,7 @@ export default function HomePage() {
             <motion.p variants={fadeInUp} className="text-[#e94560] text-sm font-semibold uppercase tracking-widest mb-3">
               Our Collection
             </motion.p>
-            <motion.h2 variants={fadeInUp} className="text-4xl sm:text-5xl font-black text-white mb-4">
+            <motion.h2 variants={fadeInUp} className="text-4xl sm:text-5xl font-black text-white mb-4" style={{ fontSize: "35px" }}>
               Featured <span className="text-[#e94560]">Inventory</span>
             </motion.h2>
             <motion.p variants={fadeInUp} className="text-white/50 text-lg max-w-xl mx-auto">
@@ -560,7 +560,7 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-r from-[#e94560]/20 via-[#e94560]/10 to-transparent" />
         <div className="absolute right-0 top-0 w-1/2 h-full opacity-10">
           <img
-            src="https://t3.ftcdn.net/jpg/09/69/46/42/360_F_969464294_gnDoX7Dfn35fFu6O5GLZxJZEgvdDsQdE.jpg"
+            src="https://titoaistorageaccount.blob.core.windows.net/titoai-storage/assets/8fef6602-fcc0-4623-ae39-af411d8709c7/98a3c5a432a24c538f4766ce49d6ecf4.png"
             alt=""
             aria-hidden="true"
             className="w-full h-full object-cover"
