@@ -378,6 +378,7 @@ export default function HomePage() {
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.97 }}
                 className="px-8 py-4 bg-[#e94560] hover:bg-[#d63a55] text-white font-bold text-base rounded-xl shadow-2xl shadow-[#e94560]/30 transition-colors duration-200 flex items-center gap-2"
+              style={{ color: "#050000", backgroundColor: "#e94560" }}
               >
                 {CTA_LABEL}
                 <ArrowRight className="w-4 h-4" />
