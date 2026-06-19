@@ -236,7 +236,7 @@ function CarCard({ car, index }: { car: (typeof featuredCars)[0]; index: number 
       {/* Image */}
       <div className="relative h-48 overflow-hidden bg-white/5">
         <img
-          src={car.image}
+          src="https://titoaistorageaccount.blob.core.windows.net/titoai-storage/8fef6602-fcc0-4623-ae39-af411d8709c7/images/uploaded-1781866859344-wyyix.png?v=1781866860311"
           alt={car.name}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           onError={(e) => {
