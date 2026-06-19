@@ -17,7 +17,7 @@ export const navLinks: NavLink[] = [
   { label: "Contact", href: "#contact" },
 ];
 
-export const CTA_LABEL = "Browse All Cars";
+export const CTA_LABEL = "Browse All";
 export const CTA_HREF = "#inventory";
 
 export const BRAND_COLORS = {
